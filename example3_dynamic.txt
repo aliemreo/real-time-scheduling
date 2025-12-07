@@ -1,0 +1,13 @@
+# Task Set with Dynamic Tasks
+# Example 3: Periodic and Dynamic tasks where deadline != period
+
+# Periodic tasks with implicit deadlines
+P 1 5
+P 2 10
+
+# Dynamic task with deadline < period
+# Format: D ei pi di
+D 3 15 10
+
+# Another dynamic task
+D 2 12 8

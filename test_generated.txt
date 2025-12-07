@@ -1,0 +1,13 @@
+# Auto-generated task set
+# Number of tasks: 5
+# Context switch overhead: 0
+# Target utilization: 0.7
+# Varied arrivals: False
+
+# Actual utilization: 0.5502
+
+P 6.74 62
+P 13.09 99 47.08
+P 7.39 72
+P 1.19 12 8.1
+P 9.35 87 44.57

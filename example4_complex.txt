@@ -1,0 +1,26 @@
+# Complex Task Set - Multiple Task Types
+# Example 4: Comprehensive example with all task types
+
+# Periodic tasks with different release times
+P 0 2 8 8
+P 0 3 12 12
+P 5 1 10 10
+P 2 4 20 20
+
+# Periodic tasks with short notation
+P 1 6
+P 2 15
+
+# Dynamic tasks (deadline != period)
+D 2 14 10
+D 1 18 12
+
+# Aperiodic tasks
+A 10 2
+A 18 3
+A 30 1
+A 40 2
+
+# Server configuration
+CONSUMPTION_RULE ONLY_WHEN_EXECUTING
+REPLENISHMENT_RULE PERIODIC 8

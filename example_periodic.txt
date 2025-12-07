@@ -1,0 +1,7 @@
+# Example periodic tasks for RM/EDF/LLF testing
+# Format: P ei pi (execution_time, period)
+# Implicit: release_time=0, deadline=period
+
+D 2 6 4
+D 1 4 6
+P 3 12

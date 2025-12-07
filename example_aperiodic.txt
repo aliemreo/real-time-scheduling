@@ -1,0 +1,19 @@
+# Example with periodic and aperiodic tasks
+# Testing Poller/Deferrable servers
+# Format: P ei pi for periodic, A ri ei for aperiodic, S ei pi <ServerName> <Scheduling> for server
+# <ServerName>: POLLER or DEFERABLE
+# <Scheduling>: RM (Rate Monotonic) or EDF (Earliest Deadline First)
+
+# Periodic tasks
+P 2 6
+P 1 4
+
+
+# Aperiodic tasks
+A 1 2
+A 4 2
+
+
+
+# Server configuration
+S 1 3 DEFERABLE RM

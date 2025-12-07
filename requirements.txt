@@ -1,0 +1,11 @@
+# Real-Time Scheduling Simulator
+# No external dependencies required
+
+# Python Standard Library modules used:
+# - sys
+# - enum
+# - typing
+# - abc
+# - math
+
+# Minimum Python version: 3.7

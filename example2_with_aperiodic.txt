@@ -1,0 +1,16 @@
+# Task Set with Periodic and Aperiodic Tasks
+# Example 2: Mixed task set
+
+# Periodic tasks
+P 0 3 10
+P 0 2 15
+P 5 4 20 20
+
+# Aperiodic tasks
+A 8 2
+A 15 3
+A 25 1
+
+# Server configuration for aperiodic tasks
+CONSUMPTION_RULE ONLY_WHEN_EXECUTING
+REPLENISHMENT_RULE PERIODIC 10
